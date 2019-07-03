@@ -1,22 +1,27 @@
 .wrapper {
-    width: 1110px;
+    width: 1170px;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 36px;
 }
 .clearfix::after {
     display: table;
     content: "";
     clear: both;
 }
-a.site-logo:hover h1::first-letter {
+.site-logo {
+    margin-right: 560px;
+}
+.site-logo::first-letter {
+    font-weight: 900;
     color: #1abc9c;
 }
-nav a:hover {
+.navigation-float:hover, h1:hover a {
     color: #1abc9c;
 }
-h1::first-letter {font-weight: 900}
-h1 {
+
+h1 a{
     font-size: 32px;
     letter-spacing: -1px;
     line-height: 32px;
@@ -25,9 +30,9 @@ h1 {
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
-    padding-right: 500px;
+    
 }
-nav :not(:first-child) {
+nav ul li{
     margin-right: 30px;
     height: 32px;
     font-size: 14px;
@@ -39,13 +44,24 @@ nav :not(:first-child) {
     font-weight: 700;
     text-align: right;
 }
-nav div:last-child {margin-right: 0px;}
+nav ul li:last-child {margin-right: 0px;}
 
-.navigation-float {
+.navigation-float, .site-logo{
     float: left;
 }
 nav {
     padding-bottom: 102px;
+}
+h2 {
+    height: 83px;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 32px;
+    color: #515151;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .line {
@@ -62,7 +78,7 @@ nav {
     background-color: #e9f0fd;
 }
 .item-name, .item-price {
-    float:left;
+    float: left;
     /* width: 159px; */
     text-transform: uppercase;
     background-color: #323232;
@@ -89,24 +105,48 @@ p.item-price {
     float: left;
     /* margin: 0; */
     margin-right: 30px;
-    padding-bottom: 30px;
+   margin-bottom: 30px;
     /* padding: 0; */
 }
 .featured-products a:nth-child(4n){
     margin-right: 0px;
     /* width: 1110px; */
 }
-
-
-
 section.featured {
     padding-bottom: 102px;
-}
-    
-div.news {
-    width: 300px;
+}  
+
+a.featured-products-item:hover p{
+    background-color: #1abc9c;
 }
 
+.news {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+.news:last-child {
+    margin-right: 0px;
+}
+.news h3 {
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #555252;
+font-family: "Open Sans";
+font-weight: 600;
+}
+.news h4 {
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #555252;
+font-family: "Open Sans";
+font-weight: 400;
+}
+/* .news img {
+    width: 350px;
+} */
 /* .navigation {
     padding-top: 36px;
     /* padding-right: 30px;
