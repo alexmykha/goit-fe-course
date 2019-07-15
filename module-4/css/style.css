@@ -144,6 +144,9 @@ a.featured-products-item:hover p{
     font-family: "Open Sans";
     font-weight: 600;
 }
+.news img {
+    height: 260px;
+}
 .news h4 {
     font-size: 14px;
     letter-spacing: 0px;
