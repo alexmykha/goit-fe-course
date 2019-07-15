@@ -1,9 +1,16 @@
 .wrapper {
     width: 1170px;
     margin: 0 auto;
+    
+}
+nav {
+    padding-top: 36px;
+    padding-bottom: 36px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 36px;
+}
+nav ul {
+    height: 32px;
 }
 .clearfix::after {
     display: table;
@@ -11,7 +18,7 @@
     clear: both;
 }
 .site-logo {
-    margin-right: 560px;
+    margin-right: 556px;
 }
 .site-logo::first-letter {
     font-weight: 900;
@@ -32,7 +39,6 @@ h1 {
 }
 nav ul li{
     margin-right: 30px;
-    height: 32px;
     font-size: 14px;
     letter-spacing: 0px;
     line-height: 11px;
@@ -48,8 +54,19 @@ nav ul li:last-child {
 .navigation-float, .site-logo{
     float: left;
 }
-nav {
-    padding-bottom: 102px;
+.slider {
+    background: url(slider.png);
+    margin-bottom: 102px;
+    background-position: center;
+    /* height: 600px; */
+}
+.opacity {
+    height: 600px;
+    position: relative;
+
+
+    background: rgba(0, 0, 2, 0.52);
+
 }
 h2 {
     font-size: 48px;
@@ -62,15 +79,36 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 92px;
 }
-h2:after {
-    display: block;
-    margin: 0 auto;
-    margin-top: 34px;
-    content: "";  
-    height: 8px;
-    background-color: #1abc9c;
-    transition: width .3s ease-in-out;
-    width: 164px;
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    /* text-align: center; */
+    width: 746px;
+    margin-left: -373px;
+    /* margin-left: 212px;
+    margin-right: 212px; */
+    
+}
+h3 {
+    font-size: 60px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 82px;
+}
+h4 {
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 82px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 .featured-products-item img {
     background-color: #e9f0fd;
