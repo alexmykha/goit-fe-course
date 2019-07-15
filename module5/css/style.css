@@ -1,0 +1,118 @@
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 36px;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.site-logo {
+    margin-right: 560px;
+}
+.site-logo::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+.navigation-float:hover, h1:hover a {
+    color: #1abc9c;
+}
+h1 {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 32px;
+    color: #515151;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav ul li{
+    margin-right: 30px;
+    height: 32px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 11px;
+    padding-top: 10px;
+    color: #515151;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: right;
+}
+nav ul li:last-child {
+    margin-right: 0px;
+}
+.navigation-float, .site-logo{
+    float: left;
+}
+nav {
+    padding-bottom: 102px;
+}
+h2 {
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 32px;
+    color: #515151;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+}
+h2:after {
+    display: block;
+    margin: 0 auto;
+    margin-top: 34px;
+    content: "";  
+    height: 8px;
+    background-color: #1abc9c;
+    transition: width .3s ease-in-out;
+    width: 164px;
+}
+.featured-products-item img {
+    background-color: #e9f0fd;
+}
+.item-name, .item-price {
+    float: left;
+    text-transform: uppercase;
+    background-color: #323232;
+    height: 40px;
+    padding-top: 4px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+p.item-name {
+    padding-left: 14px;
+    width: 200px;
+    text-align: left;
+}
+p.item-price {
+    width: 55px;
+    text-align: center;
+    opacity: 0.5;
+}
+.featured-products a {
+    width: 255px;
+    float: left;
+    /* margin: 0; */
+    margin-right: 30px;
+   margin-bottom: 30px;
+    /* padding: 0; */
+}
+.featured-products a:nth-child(4n){
+    margin-right: 0px;
+    /* width: 1110px; */
+}
+section.featured {
+    padding-bottom: 102px;
+}  
+
+a.featured-products-item:hover p{
+    background-color: #1abc9c;
+}
