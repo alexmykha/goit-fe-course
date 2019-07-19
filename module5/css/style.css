@@ -2,6 +2,11 @@
     width: 1110px;
     margin: 0 auto;  
 }
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
 nav {
     padding-top: 36px;
     padding-bottom: 36px;
@@ -9,13 +14,8 @@ nav {
 nav ul {
     height: 32px;
 }
-.clearfix::after {
-    display: table;
-    content: "";
-    clear: both;
-}
 .site-logo {
-    margin-right: 556px;
+    display: inline-block;
 }
 .site-logo::first-letter {
     font-weight: 900;
@@ -24,8 +24,23 @@ nav ul {
 .navigation-float:hover, h1:hover a {
     color: #1abc9c;
 }
-nav ul li{
-    margin-right: 30px;
+h1 {
+    display: inline-block;
+    width: 80px;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 32px;
+    color: #515151;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+}
+.site-navigation {
+    float: right;
+    width: 468px;
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     letter-spacing: 0px;
     line-height: 11px;
@@ -33,17 +48,15 @@ nav ul li{
     color: #515151;
     font-family: "Open Sans";
     font-weight: 700;
-    text-align: right;
 }
-nav ul li:last-child {
-    margin-right: 0px;
-}
-.navigation-float, .site-logo{
+.site-navigation li {  
     float: left;
+}
+.site-navigation li:not(:last-child) {
+    margin-right: 30px;
 }
 .slider {
     background: url(slider.png);
-    margin-bottom: 102px;
     background-position: center;
 }
 .opacity {
@@ -105,7 +118,6 @@ h4 {
 .item:not(:last-child) {
     margin-right: 30px;
 }
-
 .item-image {
     position: relative;
     height: 282px;
@@ -123,28 +135,25 @@ h4 {
     opacity: 0;
     background: rgba(0, 0, 0, 0.5);
 }
-ul.overlay-button {
+.overlay-button {
     width: 70%;
     height: 50%;
-    overflow: auto;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
 }
-.overlay-button li {
+.overlay-button button {
     float: left;
-    width: 48px;
-    height: 48px;
-    margin-bottom: 8px; 
+    height: 48px; 
     border: 1px solid white;
     background-repeat: no-repeat;
-    background-position: center;
     cursor: pointer;
 }
-.overlay-button li:last-child {
+.add-to-cart {
+    background-position: 6% 50%;
+    margin-top: 8px;
     width: 164px;
-    background-image: url(icon4.png);
-    background-position: 8% 50%;   
+    background-image: url(icon4.png);  
     text-align: right;
     color: white; 
     text-transform: uppercase;
@@ -154,17 +163,23 @@ ul.overlay-button {
     font-family: "Open Sans";
     font-weight: 400;
     padding-right: 12px;
-    padding-top: 8px;
+    padding-top: 6px;
 }
-.overlay-button li:first-child {
+.heart {
+    background-position: center;
+    width: 48px;
     background-image: url(icon1.png);
     margin-right: 10px;
 }
-.overlay-button li:nth-child(2) {
+.arrows {
+    background-position: center;
+    width: 48px;
     background-image: url(icon2.png);
     margin-right: 10px;
 }
-.overlay-button li:nth-child(3) {
+.clock {
+    background-position: center;
+    width: 48px;
     background-image: url(icon3.png);
 }
 .item-name, .item-price {
@@ -196,12 +211,11 @@ p.item-price {
 .item:hover .overlay {
     opacity: 1;
 }
-.overlay-button li:not(:last-child):hover {
+.overlay-button button:not(:last-child):hover {
     background-color: #1abc9c;
     border: 1px solid #1abc9c;
 }
-
-.overlay-button li:last-child:hover {
+.overlay-button button:last-child:hover {
     background-color: #323232;
 }
 h2:after {
@@ -214,16 +228,6 @@ h2:after {
     transition: width .3s ease-in-out;
     width: 164px;
 }
-h1 {
-    font-size: 32px;
-    letter-spacing: -1px;
-    line-height: 32px;
-    color: #515151;
-    font-family: "Roboto";
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-}
 h2 {
     font-size: 48px;
     letter-spacing: -1px;
@@ -233,10 +237,12 @@ h2 {
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 92px;
+    padding-bottom: 92px;
+    padding-top: 102px;
 }
 .new-collection {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    background-color: #e9f0fd;
 }
 .footer {
     height: 88px;
