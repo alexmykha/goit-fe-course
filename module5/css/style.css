@@ -26,7 +26,6 @@ nav ul {
 }
 h1 {
     display: inline-block;
-    width: 80px;
     font-size: 32px;
     letter-spacing: -1px;
     line-height: 32px;
@@ -38,7 +37,6 @@ h1 {
 }
 .site-navigation {
     float: right;
-    width: 468px;
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -58,19 +56,31 @@ h1 {
 .slider {
     background: url(slider.png);
     background-position: center;
+    height: 600px;
+    position: relative;
+    margin: auto;
 }
-.opacity {
+/* .opacity {
     height: 600px;
     position: relative;
     background: rgba(0, 0, 2, 0.52);
-}
+} */
 .slider-text {
-    width: 1110px;
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    left:50%; margin-left:-555px;
 }
-h3 {
+.slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 2, 0.52);
+}
+h2 {
     width: 760px;
     margin: 0 auto;
     font-size: 60px;
@@ -81,7 +91,7 @@ h3 {
     text-transform: uppercase;
     line-height: 82px;
 }
-h4 {
+h3 {
     width: 760px;
     margin: 0 auto;
     text-align: left;
@@ -93,6 +103,7 @@ h4 {
     font-weight: 400;
 }
 .arrow-prev, .arrow-next {
+    cursor: pointer;
     margin: 0 auto;
     width: 104px;
     height: 104px;
@@ -136,8 +147,8 @@ h4 {
     background: rgba(0, 0, 0, 0.5);
 }
 .overlay-button {
-    width: 70%;
-    height: 50%;
+    width: 166px;
+    height: 106px;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
@@ -218,7 +229,7 @@ p.item-price {
 .overlay-button button:last-child:hover {
     background-color: #323232;
 }
-h2:after {
+h4:after {
     display: block;
     margin: 0 auto;
     margin-top: 34px;
@@ -228,7 +239,7 @@ h2:after {
     transition: width .3s ease-in-out;
     width: 164px;
 }
-h2 {
+h4 {
     font-size: 48px;
     letter-spacing: -1px;
     line-height: 32px;
