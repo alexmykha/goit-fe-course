@@ -162,7 +162,6 @@ h3 {
 }
 .add-to-cart {
     background-position: 6% 50%;
-    margin-top: 8px;
     width: 164px;
     background-image: url(icon4.png);  
     text-align: right;
@@ -174,7 +173,8 @@ h3 {
     font-family: "Open Sans";
     font-weight: 400;
     padding-right: 12px;
-    padding-top: 6px;
+    padding-top: 4px;
+    margin-top: 6px;
 }
 .heart {
     background-position: center;
