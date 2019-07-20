@@ -54,8 +54,7 @@ h1 {
     margin-right: 30px;
 }
 .slider {
-    background: url(slider.png);
-    background-position: center;
+    background: url(slider.png) no-repeat center;
     height: 600px;
     position: relative;
     margin: auto;
