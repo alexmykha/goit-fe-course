@@ -152,7 +152,7 @@ h3 {
 }
 .member_card {
     display: inline-block;
-    max-width: 379px;
+    max-width: 378px;
 }
 .member_card img {
     display: block;
@@ -197,9 +197,9 @@ h4 {
 } */
 .member-card-overlay {
     visibility: hidden;
-    padding-left: 76px;
+    /* padding-left: 20%; */
     align-items: center;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     display: flex;
     position: absolute;
     left: 0;
@@ -207,12 +207,13 @@ h4 {
     bottom: 0;
     top: 0;
     background: linear-gradient(0deg, rgba(240,226,144,0.8) 0%, rgba(233,138,137,0.8) 100%);
-    
 }
 .member-card-overlay a{
     width: 56px;
     height: 56px;
-    
+}
+a.space {
+    border-right: #f38181 solid 1px;
 }
 a.facebook {
     background:  #fce38a url(facebook.png)  no-repeat center;
@@ -244,11 +245,9 @@ a.instagram {
 .member-card-overlay a:hover {
     background-color: #95e1d3;
 }
-.space {
-    width: 1px;
-    height: 56px;
-    background-color: #f38181;  
-}
+/* .space {
+     
+} */
 footer {
     align-items: center;
     display: flex;
