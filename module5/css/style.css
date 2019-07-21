@@ -58,6 +58,7 @@ h1 {
     height: 600px;
     position: relative;
     margin: auto;
+    max-width: 1660px;
 }
 /* .opacity {
     height: 600px;
