@@ -152,12 +152,12 @@ h3 {
 }
 .member_card {
     display: inline-block;
-    max-width: 380px;
+    max-width: 379px;
 }
 .member_card img {
     display: block;
     width: 100%;
-    height: 469px;
+    max-height: 468px;
 }
 h4 {
     font-size: 14px;
@@ -170,7 +170,6 @@ h4 {
 }
 .who-we-are {
     margin: 0 auto;
-    margin-bottom: 46px;
 }
 .member_cards {
     display: flex;
@@ -207,13 +206,13 @@ h4 {
     right: 0;
     bottom: 0;
     top: 0;
-    background: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
-    opacity: 0.8;
+    background: linear-gradient(0deg, rgba(240,226,144,0.8) 0%, rgba(233,138,137,0.8) 100%);
     
 }
 .member-card-overlay a{
     width: 56px;
     height: 56px;
+    
 }
 a.facebook {
     background:  #fce38a url(facebook.png)  no-repeat center;
@@ -236,14 +235,8 @@ a.instagram {
     visibility: visible;
 }
 .image:hover {
-    box-shadow: 
-    1px 1px #95e1d3,
-    2px 2px #95e1d3,
-    3px 3px #95e1d3,
-    4px 4px #95e1d3,
-    5px 5px #95e1d3,
-    6px 6px #95e1d3,
-    7px 7px #95e1d3;
+    box-shadow:
+    10px 10px #95e1d3;
   -webkit-transform: translateX(-7px);
   transform: translateX(-7px);
 }
@@ -255,4 +248,37 @@ a.instagram {
     width: 1px;
     height: 56px;
     background-color: #f38181;  
+}
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: left;
+    line-height: 64px;
+    /* vertical-align: middle; */
+}
+footer a {
+    color: #f38181;
+}
+input[type=submit] {
+    text-transform: uppercase;
+    color: white;
+    width: 150px;
+    height: 40px;
+    background-color: #95e1d3;
+    
+}   
+input[type=email]{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
 }
