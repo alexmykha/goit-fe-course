@@ -23,6 +23,7 @@
     color: #1abc9c;
 }
 h1 {
+    float: left;
     font-size: 32px;
     letter-spacing: -1px;
     line-height: 32px;
