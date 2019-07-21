@@ -279,6 +279,7 @@ input[type=submit] {
 }   
 input[type=email]{
     padding-top: 0;
+    padding-left: 12px;
     position: block;
     border: #cccccc solid 1px;
     border-right: none;
