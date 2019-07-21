@@ -265,18 +265,26 @@ footer p {
 footer a {
     color: #f38181;
 }
+/* form {
+    border: #cccccc solid 1px;
+} */
 input[type=submit] {
+    position: block;
     text-transform: uppercase;
     color: white;
     width: 150px;
     height: 40px;
     background-color: #95e1d3;
-    
+    border-color: #95e1d3;
 }   
 input[type=email]{
+    padding-top: 0;
+    position: block;
+    border: #cccccc solid 1px;
+    border-right: none;
     font-size: 15px;
-    line-height: 24px;
-    color: #999999;
+    line-height: 36px;
+    color: #cccccc;
     font-family: "Roboto";
     font-weight: 300;
     font-style: italic;
