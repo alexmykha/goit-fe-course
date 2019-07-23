@@ -4,16 +4,15 @@
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 36px;
-    padding-bottom: 36px;
+}
+header {
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 .clearfix::after {
     display: table;
     content: "";
     clear: both;
-}
-.site-logo {
-    float: left;
 }
 .site-logo::first-letter {
     font-weight: 900;
@@ -75,7 +74,7 @@ h2:after {
     transition: width .3s ease-in-out;
     width: 164px;
 }
-h4:after {
+.news h3:after {
     display: block;
     margin-top: 12px;
     content: "";
@@ -91,23 +90,26 @@ h4:after {
 .item-name, .item-price {
     float: left;
     text-transform: uppercase;
-    background-color: #323232;
-    padding-top: 4px;
     font-size: 18px;
-    line-height: 40px;
     color: #ffffff;
     font-family: "Roboto";
     font-weight: 900;
+    line-height: 40px;
+}
+.name-and-price {
+    background-color: #323232;
+    height: 40px;
 }
 a.item-name {
     padding-left: 14px;
-    width: 186px;
+    width: 187px;
     text-align: left;
 }
 p.item-price {
-    width: 55px;
+    float: right;
+    width: 54px;
     text-align: center;
-    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.5)
 }
 .featured-products-item {
     width: 255px;
@@ -120,21 +122,19 @@ margin-right: 30px;
 section.featured {
     padding-bottom: 72px;
 }  
-.featured-products-item:hover a{
-    background-color: #1abc9c;
-}
-.featured-products-item:hover p{
+.featured-products-item:hover .name-and-price{
     background-color: #1abc9c;
 }
 .news {
-    width: 350px;
+    width: 347px;
     float: left;
     margin-right: 30px;
 }
 .news:last-child {
     margin-right: 0px;
 }
-.news h4 {
+.news h3 {
+    margin-top: 16px;
     margin-bottom: 32px;
     font-size: 18px;
     letter-spacing: 0px;
@@ -144,7 +144,8 @@ section.featured {
     font-weight: 600;
 }
 .news img {
-    height: 260px;
+    display: block;
+    /* height: 260px; */
 }
 .news p{
     font-size: 14px;
@@ -153,7 +154,7 @@ section.featured {
     color: #555252;
     font-family: "Open Sans";
     font-weight: 400;
-    padding-bottom: 19px;
+    padding-bottom: 17px;
 }
 .button {
     display: block;
