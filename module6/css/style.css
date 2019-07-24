@@ -144,12 +144,13 @@ h2:after {
 }
 .header-block {
     /* padding-top: 44px; */
-    padding-bottom: 94px;
+    padding-bottom: 88px;
 }
 .member_card {
     display: inline-block;
     max-width: 378px;
     margin-bottom: 86px;
+    text-align: center;
 }
 .member_card img {
     display: block;
@@ -161,12 +162,15 @@ h2:after {
     color: #333333;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    text-align: center;
+    
     text-transform: uppercase;
     padding-top: 30px;
 }
 .who-we-are {
     margin: 0 auto;
+}
+.header-block p {
+    padding-top: 45px;
 }
 .member_cards {
     display: flex;
