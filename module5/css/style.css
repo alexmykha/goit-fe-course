@@ -58,7 +58,6 @@ nav ul {
     height: 600px;
     position: relative;
     margin: auto;
-    max-width: 1648px;
 }
 
 /* .opacity {
@@ -68,13 +67,14 @@ nav ul {
 } */
 .slider-text {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width:100%
+    top: 35%;
+    transform: translateY(-35%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 .main-text {
-    width: 760px;
     margin: 0 auto;
+    position: relative;
 }
 .slider::before {
     content: '';
@@ -87,7 +87,7 @@ nav ul {
 }
 
 .main-logo-text {
-    
+    text-align: center;
     font-size: 60px;
     letter-spacing: -1px;
     color: #ffffff;
@@ -97,7 +97,7 @@ nav ul {
     line-height: 82px;
 }
 .main-logo-services {
-    
+    padding-left: 186px;
     text-align: left;
     font-size: 24px;
     letter-spacing: -1px;
@@ -237,7 +237,7 @@ nav ul {
 .overlay-button button:last-child:hover {
     background-color: #323232;
 }
-h4:after {
+.new-collection-header:after {
     display: block;
     margin: 0 auto;
     margin-top: 34px;
@@ -249,7 +249,7 @@ h4:after {
 }
 .new-collection-header {
     font-size: 48px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     line-height: 32px;
     color: #515151;
     font-family: "Roboto";
