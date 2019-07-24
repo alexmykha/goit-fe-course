@@ -125,8 +125,9 @@ h2:after {
     color: #999999;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    
 }
-.who-we-are p{
+.header-block p{
     display: block;
     margin: auto;
     max-width: 1040px;
@@ -137,8 +138,12 @@ h2:after {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-align: center;
+    /* padding-top: 52px; */
     /* align-items: center; */
-    padding-top: 44px;
+    
+}
+.header-block {
+    /* padding-top: 44px; */
     padding-bottom: 94px;
 }
 .member_card {
