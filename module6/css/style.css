@@ -15,12 +15,12 @@ header {
     display: inline-block;
     font-size: 30px;
     color: #95e1d3;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
 .site-navigation {
     font-size: 14px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     text-align: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@ a.site-logo:hover span{
 h2 {
     font-size: 24px;
     color: #333333;
-    font-family: "Kaushan Script";
+    font-family: "Kaushan Script", cursive;
     font-weight: 400;
     text-align: center;
     line-height: 1.6;
@@ -58,7 +58,7 @@ h2 {
 h2 span {
     font-size: 30px;
     color: #333333;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -85,45 +85,35 @@ h2:after {
     position: relative;
     width: 400px;
     height: 172px;
-}
-.photography {
-    background-image: url('image1.png');
     background-repeat: no-repeat;
     background-position: 7% 44%;
+}
+.photography {
+    background-image: url('image1.png'); 
 }
 .web-design {
     background-image: url('image2.png');
-    background-repeat: no-repeat;
-    background-position: 7% 44%;
 }
 .creativity {
     background-image: url('image3.png');
-    background-repeat: no-repeat;
-    background-position: 7% 44%;
 }
 .seo {
     background-image: url('image4.png');
-    background-repeat: no-repeat;
-    background-position: 7% 44%;
 }
 .css-html {
     background-image: url('image5.png');
-    background-repeat: no-repeat;
-    background-position: 7% 44%;
 }
 .digital {
     background-image: url('image6.png');
-    background-repeat: no-repeat;
-    background-position: 7% 44%;
 }
-h3 {
+.icon-link {
     text-transform: uppercase;
     position: absolute;
     top: 33%;
     left: 23%;
     font-size: 14px;
     color: #333333;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
 .services div p {
@@ -133,7 +123,7 @@ h3 {
     line-height: 24px;
     font-size: 15px;
     color: #999999;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 .who-we-are p{
@@ -144,7 +134,7 @@ h3 {
     font-size: 15px;
     line-height: 24px;
     color: #999999;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-align: center;
     /* align-items: center; */
@@ -162,7 +152,7 @@ h3 {
 h4 {
     font-size: 14px;
     color: #333333;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -182,7 +172,7 @@ h4 {
     padding-top: 12px;
     font-size: 15px;
     color: #999999;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
 }
@@ -256,7 +246,7 @@ footer {
 footer p {
     font-size: 14px;
     color: #333333;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     text-align: left;
     line-height: 64px;
@@ -278,15 +268,15 @@ input[type=submit] {
     border-color: #95e1d3;
 }   
 input[type=email]{
-    padding-top: 0;
+    padding-top: 1px;
+    padding-top: 1px;
     padding-left: 12px;
-    position: block;
     border: #cccccc solid 1px;
     border-right: none;
     font-size: 15px;
     line-height: 36px;
     color: #cccccc;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
 }
