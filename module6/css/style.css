@@ -41,12 +41,12 @@ header {
     color: #f38181;
     border-bottom: 3px solid #f38181;
 }
-a.site-logo:hover::first-letter{
+/* a.site-logo:hover::first-letter{
     color: #f38181;
 }
 a.site-logo:hover span{
     color: #f38181;
-}
+} */
 .header {
     font-size: 24px;
     color: #333333;
