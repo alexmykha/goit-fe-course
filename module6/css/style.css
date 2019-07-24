@@ -47,7 +47,7 @@ a.site-logo:hover::first-letter{
 a.site-logo:hover span{
     color: #f38181;
 }
-h2 {
+.header {
     font-size: 24px;
     color: #333333;
     font-family: "Kaushan Script", cursive;
@@ -55,7 +55,7 @@ h2 {
     text-align: center;
     line-height: 1.6;
 }
-h2 span {
+.header span {
     font-size: 30px;
     color: #333333;
     font-family: "Montserrat", sans-serif;
