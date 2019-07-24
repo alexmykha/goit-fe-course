@@ -81,11 +81,13 @@ nav ul {
     bottom: 0;
     background: rgba(0, 0, 2, 0.52);
 }
-.main-text {
-    margin: 0 auto;
-    position: relative;
-    padding-left: 186px;
+.main-text-container {
+    width: 744px;
     line-height: 82px;
+    margin: 0 auto;
+}
+.main-text {
+    position: relative;
 }
 .main-logo-text {
     font-size: 60px;
