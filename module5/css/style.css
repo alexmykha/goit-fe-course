@@ -54,7 +54,7 @@ nav ul {
     margin-right: 30px;
 }
 .slider {
-    background: url(slider.png) no-repeat center;
+    background: url(slider.png) no-repeat top center;
     height: 600px;
     position: relative;
     margin: auto;
@@ -150,10 +150,9 @@ nav ul {
 }
 .overlay-button {
     width: 166px;
-    height: 106px;
     margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    position: relative;
+    top: 88px;
 }
 .overlay-button button {
     float: left;
@@ -209,7 +208,6 @@ nav ul {
 }
 .post {
     background-color: #323232;
-    height: 40px;
 }
 .item-name {
     padding-left: 14px;
@@ -261,7 +259,7 @@ nav ul {
     padding-bottom: 100px;
     background-color: #e9f0fd;
 }
-.footer {
+footer {
     height: 88px;
     background-color: #323232;
     font-size: 16px;
