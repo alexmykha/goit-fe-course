@@ -24,6 +24,9 @@ nav ul {
 .navigation-float:hover, h1:hover a {
     color: #1abc9c;
 }
+.navigation-float a {
+    text-transform: uppercase;
+}
 .main-header {
     float: left;
     font-size: 32px;
