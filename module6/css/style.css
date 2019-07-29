@@ -41,12 +41,6 @@ header {
     color: #f38181;
     border-bottom: 3px solid #f38181;
 }
-/* a.site-logo:hover::first-letter{
-    color: #f38181;
-}
-a.site-logo:hover span{
-    color: #f38181;
-} */
 .services-header {
     font-size: 24px;
     color: #333333;
@@ -125,19 +119,15 @@ h2:after {
     display: block;
     margin: auto;
     max-width: 1040px;
-    /* height: 132px; */
     font-size: 15px;
     line-height: 24px;
     color: #999999;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-align: center;
-    /* padding-top: 52px; */
-    /* align-items: center; */
     
 }
 .header-block {
-    /* padding-top: 44px; */
     padding-bottom: 88px;
 }
 .member_card {
@@ -149,7 +139,7 @@ h2:after {
 .member_card img {
     display: block;
     width: 100%;
-    max-height: 468px;
+    /* max-height: 468px; */
 }
 .name {
     font-size: 14px;
@@ -176,18 +166,8 @@ h2:after {
     font-weight: 300;
     font-style: italic;
 }
-
-/* .Mattiew_Dix::before:hover {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-
-} */
 .member-card-overlay {
     visibility: hidden;
-    /* padding-left: 20%; */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -228,16 +208,12 @@ a.instagram {
 .image:hover {
     box-shadow:
     10px 10px #95e1d3;
-  -webkit-transform: translateX(-7px);
-  transform: translateX(-7px);
+    transform: translate(-7px,-7px);
 }
 
 .member-card-overlay a:hover {
     background-color: #95e1d3;
 }
-/* .space {
-     
-} */
 footer {
     align-items: center;
     display: flex;
@@ -251,23 +227,17 @@ footer {
     font-weight: 400;
     text-align: left;
     line-height: 64px;
-    /* vertical-align: middle; */
 }
 .signature {
     color: #f38181;
 }
-/* form {
-    border: #cccccc solid 1px;
-} */
 input[type=submit] {
-    position: block;
     text-transform: uppercase;
     color: white;
     padding-left: 32px;
     padding-right: 32px;
     line-height: 38px;
     background-color: #95e1d3;
-    border-color: #95e1d3;
 }   
 input[type="email"]::placeholder {
     color:#cccccc;
