@@ -2,7 +2,7 @@
     font-family: 'Wisdom';
     font-style: normal;
     font-weight: normal;
-    src: local('Wisdom Script Regular'), url(../fonts/wisdom/Wisdom_Script_AJ.woff) format('woff');
+    src: local('Wisdom Script Regular'), url("../fonts/wisdom/Wisdom_Script_AJ.woff") format('woff');
 }
 
 @font-face {
