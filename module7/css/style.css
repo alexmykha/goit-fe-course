@@ -47,7 +47,7 @@ header {
     font-size: 40px;
     letter-spacing: -1px;
     color: #222222;
-    font-family: "Montserrat-bold";
+    font-family: "Montserrat-bold", sans-serif;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -151,6 +151,12 @@ footer {
     color: black;
     font-family: "Montserrat";
     font-weight: 700;
+}
+input::placeholder, textarea::placeholder {
+    font-family: "Montserrat-bold";
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #bbbbbb;
 }
 .person-info {
     line-height: 46px;
