@@ -31,9 +31,9 @@
                 <h3><a href="#">E-Commerce</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit, sit amet consectetur.</p>
             </div>      
-            <div class="item resposive-web">
+            <div class="item responsive-web">
                 <div class="icon laptop"></div>  
-                <a href="#"><h3>Resposive Web</h3></a>
+                <a href="#"><h3>Responsive Web</h3></a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit, sit amet consectetur.</p>
             </div>
             <div class="item web-security">
@@ -48,17 +48,17 @@
                 <h2 class="footer-header">contact us</h2>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
         </div>
-        <div class="wrapper">
-            <form class="forma">
-                    <div class="input-person-info">
-                        <input type="name" placeholder="Your name*">
-                        <input type="email" placeholder="Your e-mail*">
-                        <input type="subject" placeholder="subject">
-                    </div>
-                    <input type="input-message" placeholder="Send Message">
-                <input type="input-submit" value="Send Message">
-            </form>
-        </div>
+        <form class="wrapper">
+            <div class="forma">
+                <div class="input-person-info">
+                    <input required type="name" name="person-name" class="person-info" placeholder="Your name*">
+                    <input required type="email" name="person-email" class="person-info" placeholder="Your e-mail*">
+                    <input type="subject" name="message-subject" class="person-info" placeholder="subject">
+                </div>
+                <textarea required name="message" class="message" rows="10" cols="30" placeholder="Your message*"></textarea>
+            </div>
+            <input type="submit" value="Send Message" id="form">
+        </form>
     </footer>
 </body>
 </html>
