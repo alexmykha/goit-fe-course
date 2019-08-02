@@ -45,12 +45,12 @@ header {
 .main-header, .footer-header {
     font-size: 40px;
     letter-spacing: -1px;
-    line-height: 75px;
     color: #222222;
     font-family: "Montserrat-bold";
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 span {
