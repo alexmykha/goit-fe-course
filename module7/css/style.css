@@ -67,9 +67,10 @@ span {
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 76px 0 116px 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+    margin-bottom: 116px;
 }
 .item {
     display: block;
@@ -111,7 +112,6 @@ span {
     background-position: center;
     border: 2px solid #fed136;
     border-radius: 50%;
-    cursor: pointer;
 }
 .basket {
     background-image: url(Icon-Basket.png);
@@ -122,12 +122,12 @@ span {
 .locked {
     background-image: url(Icon-Locked.png);
 }
-footer {
-    height: 626px;
+.footer {
     background-color: #222222;
     background-image: url(Map-Image.png);
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: 110% 150%;
+    padding-bottom: 64px;
 }
 .footer-header {
     color: white;
@@ -147,7 +147,6 @@ footer {
     border: 1px solid #cccccc;
     border-radius: 2px;
     font-size: 14px;
-    letter-spacing: 0px;
     color: black;
     font-family: "Montserrat";
     font-weight: 700;
@@ -165,14 +164,15 @@ input::placeholder, textarea::placeholder {
     padding-top: 18px;
     padding-right: 0px;
     text-transform: uppercase;
+    resize: none;
 }
-input:required, textarea:valid {
+input:focus:required, textarea:valid {
     outline: 2px solid green;
 }
-input:required:invalid{
+input:required:focus:invalid{
     outline: 2px solid red;
 }
-textarea:invalid{
+textarea:focus:invalid{
     outline: 2px solid red;
 }
 input[type=submit] {
@@ -182,11 +182,12 @@ input[type=submit] {
     background-color: #fed136;
     font-size: 18px;
     color: #ffffff;
-    font-family: "Montserrat";
+    font-family: "Montserrat-bold";
     font-weight: 700;
     text-align: center;
     margin: 0 auto;
     display: block;
+    text-transform: uppercase;
 }
 .forma {
     display: flex;
