@@ -4,7 +4,7 @@
         padding-right: 44px;
     } */
     header.wrapper { 
-        background-image: url(/css/images/VectorSmartObject_tablet.png);
+        background-image: url("../css/images/VectorSmartObject_tablet.png");
     }
     .header.wrapper {
         width: 660px;
@@ -35,6 +35,7 @@
     }
     .link .main-title-link {
         padding: 12px 10px;
+        margin-bottom: 234px;
     }
     .partners {
         margin: 0 auto;

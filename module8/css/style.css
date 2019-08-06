@@ -1,8 +1,8 @@
-@import url(/css/media.css);
+@import url("../css/media.css");
 
 header {
     background-color: rgba(26,25,21,0.9);
-    background-image: url(/css/images/VectorSmartObject.png);
+    background-image: url("../css/images/VectorSmartObject.png");
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -118,19 +118,19 @@ padding: 0 48px 16px 48px;
     border: 4px solid #ffffff;
 }
 .hunter .icon {
-    background-image: url(/css/images/tv.png);
+    background-image: url("../css/images/tv.png");
     background-color: #ff4e50;
 }
 .marsha .icon {
-    background-image: url(/css/images/flask.png);
+    background-image: url("../css/images/flask.png");
     background-color: #ffa507;
 }
 .walker .icon {
-    background-image: url(/css/images/coffee.png);
+    background-image: url("../css/images/coffee.png");
     background-color: #1cd7ad;
 }
 .hunters .icon {
-    background-image: url(/css/images/telegram.png);
+    background-image: url("../css/images/telegram.png");
     background-color: #4e73db;
 }
 
