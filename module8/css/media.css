@@ -3,22 +3,20 @@
         padding-left: 44px;
         padding-right: 44px;
     } */
-    header.wrapper { 
+    section.main-text{ 
         background-image: url("../css/images/VectorSmartObject_tablet.png");
     }
     .header.wrapper {
         width: 660px;
-    } 
-    div.login-buttons {
-        padding-bottom: 0;
-    }
-    div.header {
         flex-direction: row-reverse;
         display: flex;
         justify-content: space-between;
         padding-top: 40px;
         padding-bottom: 136px;
         align-items: center;
+    } 
+    div.login-buttons {
+        padding-bottom: 0;
     }
     p.main-subtitle {
         font-size: 24px;
@@ -28,11 +26,11 @@
         width: 508px;
         margin: 0 auto;
         font-size: 52px;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
     }
     a.main-title-link {
         padding: 12px 20px;
-        margin-bottom: 234px;
+        margin-bottom: 228px;
     }
     .partners {
         margin: 0 auto;

@@ -1,10 +1,13 @@
 @import url("../css/media.css");
 
-header {
+.main-text {
     background-color: rgba(26,25,21,0.9);
     background-image: url("../css/images/VectorSmartObject.png");
     background-repeat: no-repeat;
     background-position: top center;
+    position: relative;
+    padding-top: 222px;
+    
 }
 .wrapper {
     min-width: 320px;
@@ -22,8 +25,14 @@ header {
     padding: 6px 16px;
 }
 .header {
+    position: absolute;
     padding-bottom: 28px;
     padding-top: 20px; 
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    
 }
 .login-buttons {
     padding-bottom: 120px;
@@ -53,8 +62,7 @@ header {
     font-weight: 700;
     text-align: center;
     width: 292px;
-    margin: 0 auto;
-    margin-bottom: 12px;
+    margin: 0 auto 12px auto;
 }
 .main-subtitle {
     font-size: 18px;
@@ -62,7 +70,8 @@ color: #ffffff;
 font-family: "Roboto";
 font-weight: 300;
 text-align: center;
-padding: 0 48px 16px 48px;
+padding: 0 52px 16px 52px;
+margin: 0 auto;
 }
 
 .link {
