@@ -9,10 +9,6 @@
     .header.wrapper {
         width: 660px;
     } 
-
-    .company-logo {
-      margin: auto 0; 
-    }
     div.login-buttons {
         padding-bottom: 0;
     }
@@ -22,10 +18,11 @@
         justify-content: space-between;
         padding-top: 40px;
         padding-bottom: 136px;
+        align-items: center;
     }
     p.main-subtitle {
         font-size: 24px;
-        padding-bottom: 32px;
+        padding-bottom: 34px;
     }
     h2.main-title {
         width: 508px;
@@ -33,8 +30,8 @@
         font-size: 52px;
         margin-bottom: 24px;
     }
-    .link .main-title-link {
-        padding: 12px 10px;
+    a.main-title-link {
+        padding: 12px 20px;
         margin-bottom: 234px;
     }
     .partners {
@@ -42,8 +39,11 @@
         display: flex;
         width: 492px;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: top;
         justify-content: center;
+    }
+    h2.partners-title {
+        margin-bottom: 30px;
     }
 }
 @media (min-width: 940px) {
@@ -56,5 +56,10 @@
     .header.wrapper {
         width: 940px;
     } 
-
+    div.hunter {
+        order:-1;
+    }
+    div.walker {
+        order: -1;
+    }
 }
