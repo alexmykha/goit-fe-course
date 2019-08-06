@@ -1,3 +1,5 @@
+@import url(/css/media.css);
+
 header {
     background-color: rgba(26,25,21,0.9);
     background-image: url(/css/images/VectorSmartObject.png);
@@ -5,12 +7,11 @@ header {
     background-position: top center;
 }
 .wrapper {
-    width: 320px;
+    min-width: 320px;
     margin: 0 auto;
 }
 .button {
     border: none;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -18,22 +19,23 @@ header {
     color: #ffffff;
     font-family: "Montserrat";
     font-weight: 700;
-    padding: 10px 16px;
-  }
-
-  .login-buttons {
-      padding-top: 20px;
-      padding-bottom: 120px;
-      display: flex;
-      align-items: center;
-  justify-content: center;
-  }
-  .signup {
+    padding: 6px 16px;
+}
+.header {
+    padding-bottom: 28px;
+    padding-top: 20px; 
+}
+.login-buttons {
+    padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup {
       border: 2px solid white;
       border-radius: 18px;
     background-color: rgba(26,25,21,0);
-  }
-
+}
 .company-logo {
     text-transform: uppercase;
     font-size: 20px;
@@ -42,7 +44,6 @@ header {
     font-family: "Montserrat";
     font-weight: 700;
     text-align: center;
-    margin-bottom: 28px;
 }
 .main-title {
     text-transform: uppercase;
@@ -51,8 +52,9 @@ header {
     font-family: "Montserrat";
     font-weight: 700;
     text-align: center;
+    width: 292px;
+    margin: 0 auto;
     margin-bottom: 12px;
-    letter-spacing: -1px;
 }
 .main-subtitle {
     font-size: 18px;
@@ -76,12 +78,18 @@ padding: 0 48px 16px 48px;
     margin-bottom: 20px;
 }
 .partner {
-    text-align: center;
     position: relative;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 236px;
+    margin: 0 auto;
 }
 .partner img {
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+    display: block;
 }
 .partner-name {
     font-size: 14px;
@@ -97,12 +105,11 @@ padding: 0 48px 16px 48px;
     font-family: "Roboto";
     font-weight: 300;
     text-align: center;
-    padding: 0 48px 26px 48px;
 }
 .icon {
     position: absolute;
-    top: 90px;
-    left: 185px;
+    top: 86px;
+    left: 136px;
     background-repeat: no-repeat;
     background-position: center;
     width: 40px;
@@ -150,5 +157,5 @@ padding: 0 48px 16px 48px;
     border-radius: 20px;
     background-color: #ff4e50;
     padding: 12px 42px;
-    margin-bottom: 134px;
+    margin-bottom: 130px;
 }
