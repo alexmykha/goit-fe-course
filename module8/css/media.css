@@ -1,4 +1,4 @@
-@media (min-width: 660px) {
+@media (min-width: 690px) {
     /* .wrapper {
         padding-left: 44px;
         padding-right: 44px;
@@ -44,7 +44,7 @@
         margin-bottom: 30px;
     }
 }
-@media (min-width: 940px) {
+@media (min-width: 970px) {
     .partners {
         width: fit-content;
     }
