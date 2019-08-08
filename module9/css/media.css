@@ -1,0 +1,60 @@
+@media (min-width: 748px) {
+    /* .wrapper {
+        padding-left: 44px;
+        padding-right: 44px;
+    } */
+    section.main-text{ 
+        background-image: url("../css/images/VectorSmartObject_tablet.png");
+    }
+    header.header .row {
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-bottom: 136px;
+        align-items: center;
+    } 
+    div.login-buttons {
+        padding-bottom: 0;
+    }
+    p.main-subtitle {
+        font-size: 24px;
+        padding-bottom: 34px;
+    }
+    h2.main-title {
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+    a.main-title-link {
+        padding: 12px 20px;
+        margin-bottom: 228px;
+    }
+    .partners {
+        margin: 0 auto;
+        display: flex;
+        width: 492px;
+        flex-wrap: wrap;
+        align-items: top;
+        justify-content: center;
+    }
+    h2.partners-title {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 970px) {
+    .partners {
+        width: fit-content;
+    }
+    div.partner {
+        width: 220px;
+    }
+    .header.wrapper {
+        width: 940px;
+    } 
+    div.hunter {
+        order:-1;
+    }
+    div.walker {
+        order: -1;
+    }
+}
