@@ -3,6 +3,9 @@
         padding-left: 44px;
         padding-right: 44px;
     } */
+    h1.company-logo {
+        text-align: left;
+    }
     section.main-text{ 
         background-image: url("../css/images/VectorSmartObject_tablet.png");
     }
