@@ -26,13 +26,13 @@
 }
 .header {
     position: absolute;
-    padding-bottom: 28px;
-    padding-top: 20px; 
     top: 0;
     left: 0;
-    right: 0;
-    
-    
+    right: 0; 
+}
+.header .row {
+    padding-bottom: 28px;
+    padding-top: 20px; 
 }
 .login-buttons {
     padding-bottom: 120px;
@@ -107,6 +107,7 @@ margin: 0 auto;
     font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .partner-description {
     font-size: 14px;

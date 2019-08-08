@@ -12,27 +12,33 @@
         justify-content: space-between;
         padding-top: 40px;
         padding-bottom: 136px;
-        align-items: center;
+        align-items: center; 
     } 
     div.login-buttons {
         padding-bottom: 0;
+        justify-content: flex-end;
     }
     p.main-subtitle {
         font-size: 24px;
-        padding-bottom: 34px;
+        padding: 0 0 30px 0;
     }
     h2.main-title {
-        font-size: 52px;
+        font-size: 51px;
         margin-bottom: 20px;
+        line-height: 1.2;
     }
     a.main-title-link {
         padding: 12px 20px;
         margin-bottom: 228px;
     }
+    .partner {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
     .partners {
         margin: 0 auto;
         display: flex;
-        width: 492px;
+        /* width: 492px; */
         flex-wrap: wrap;
         align-items: top;
         justify-content: center;
@@ -40,21 +46,25 @@
     h2.partners-title {
         margin-bottom: 30px;
     }
-}
-@media (min-width: 970px) {
-    .partners {
-        width: fit-content;
+    div.hunter-image::after, div.marsha-image::after, div.walker-image::after, div.hunters-image::after {
+        left:136px;
     }
-    div.partner {
-        width: 220px;
-    }
-    .header.wrapper {
-        width: 940px;
-    } 
     div.hunter {
         order:-1;
     }
     div.walker {
         order: -1;
+    }
+}
+@media (min-width: 1000px) {
+    /* .partners {
+        width: fit-content;
+    } */
+    div.partner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    div.hunter-image::after, div.marsha-image::after, div.walker-image::after, div.hunters-image::after {
+        left:148px;
     }
 }
