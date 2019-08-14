@@ -1,0 +1,243 @@
+.banner {
+    
+    text-align: center;
+    color: #ffffff;
+    background: url("../css/images/banner.png") top center;
+    position: relative;
+    padding-bottom: 120px;
+    height: 1000px;
+}
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(0deg, rgba(240,226,144,0.8) 0%, rgba(233,138,137,0.8) 100%);
+}
+.banner__text {
+    padding-top: 226px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.banner__subtitle {
+    font-size: 72px;
+    font-family: "Kaushan Script";
+    font-weight: 400;   
+}
+
+.banner__title {
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 826px;
+    font-size: 150px;
+    line-height: 140px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding-bottom:120px;
+}
+
+.banner__link {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    border: 3px solid #ffffff;
+    margin: 0 auto;
+    padding: 5px 24px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+}
+.page-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;   
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.navigation {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+/* 
+.site-navigation li:not(:last-child) {
+    margin-right: 46px;
+}
+.site-navigation a {
+    text-transform: uppercase;
+    color: #95e1d3;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    transition: 200ms linear;
+}
+.site-navigation a:hover {
+    color: #f38181;
+    border-bottom: 3px solid #f38181;
+} */
+
+.navigation__item {
+    margin-right: 46px;
+}
+.navigation__link {
+    transition: 200ms linear;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.navigation__link:hover {
+    color: #fce38a;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fce38a;
+}
+
+.page-header__navigation--shopping-cart-icon {
+    width: 24px;
+    height: 24px;
+    background: url("images/SHOPPING\ CART.svg") no-repeat center;
+}
+
+.page-header__navigation--search-icon {
+    width: 24px;
+    height: 24px;
+    background: url("images/MAGNIFYING\ GLASS.svg") no-repeat center;
+}
+.section-header__title {
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.section-header__subtitle {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-header {
+    margin-top: 38px;
+    color: #333333;
+    text-align: center;
+}
+.section-header:after {
+    display: block;
+    margin: 44px auto;
+    content: "";  
+    height: 3px;
+    background-color: #f38181;
+    width: 60px;
+}
+
+
+
+.services__icon {
+    display: block;
+    position: relative;
+    width: 400px;
+    /* height: 96px; */
+    background-repeat: no-repeat;
+    background-position: 5% 0%;
+    margin-bottom: 80px;
+    padding-left: 80px;
+    margin-top: 20px;
+}
+.services__icon--title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.services__icon--clock {
+    background-image: url("/css/images/image1.png"); 
+}
+.services__icon--web-design {
+    background-image: url("/css/images/image2.png");
+}
+.services__icon--monitor {
+    background-image: url("/css/images/image3.png");
+}
+.services__icon--book {
+    background-image: url("/css/images/image4.png");
+}
+.services__icon--house {
+    background-image: url("/css/images/image5.png");
+}
+.services__icon--digital {
+    background-image: url("/css/images/image6.png");
+}
+.services__icon--subtitle {
+    line-height: 24px;
+    font-size: 15px;
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.team__header--subtitle{
+    display: block;
+    margin: auto;
+    max-width: 1040px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.services__header, .team__header--title {
+    margin-top: 38px;
+    font-size: 24px;
+    color: #333333;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.6;
+}
+.services__header:after, .team__header--title:after {
+    display: block;
+    margin: 44px auto;
+    content: "";  
+    height: 3px;
+    background-color: #f38181;
+    width: 60px;
+}
+.team__header--main-text {
+    font-size: 30px;
+    color: #333333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.team__header {
+    padding-bottom: 88px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}

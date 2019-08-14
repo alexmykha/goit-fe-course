@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 17" width="20" height="17">
+	<defs>
+		<image width="20" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAMAAADqmnyMAAAAAXNSR0IB2cksfwAAAMNQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////WcU9VgAAAEF0Uk5TADNmXga6/2cUNvLTd0CiS40iWgXrzwThlid0PIHO7xAC4omaq7zM3YuK++rZyLefFTCeDT6lqu2p7v4j6B8xjEcXuJDIAAAAmElEQVR4nG2O1w7CMBAEnZgsEFpoCdUQOqa3QOj//1UgbCuWxTyt5qS9JeQvlm3TlCkdAGlTZqysm8trFIQvQscRsgSvrPBQEbJaq6syPwh8GRtoykTRUvc2OjJ1WU/JfhgOhqPxZMowS3bNv1/5Yrlab7aJ3GF/MPYfTxE/R4ILlTNiwI1/MOB6E2/u4A9ixufrrZq0aPABluoPc30vv1wAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="banner">
+		<g id="menu">
+			<use id="SHOPPING CART" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

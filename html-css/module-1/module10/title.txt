@@ -1,0 +1,21 @@
+banner
+    banner__subtitle
+    banner__title
+    banner__link
+wrapper
+logo
+page-nav
+navigation
+    navigation__item
+    navigation__link
+section-header
+    section-header__title
+    section-header__subtitle
+services
+    services-icon
+    services-icon--clock
+    services__icon--web-design
+    services__icon--monitor
+    services__icon--book
+    services__icon--house
+    services__icon--digital
