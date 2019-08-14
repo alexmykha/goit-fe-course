@@ -1,0 +1,34 @@
+banner
+    banner__subtitle
+    banner__title
+    banner__link
+wrapper
+logo
+page-nav
+navigation
+    navigation__item
+    navigation__link
+section-header
+    section-header__title
+    section-header__subtitle
+    section-header__text
+services
+services-icon
+    services-icon--clock
+    services-icon--web-design
+    services-icon--monitor
+    services-icon--book
+    services-icon--house
+    services-icon--digital
+    services-icon__title
+    services-icon__subtitle
+team
+member-cards
+member-card
+    member-card__image
+    member-card__name
+    member-card__position
+    member-card__overlay
+    member-card__overlay--facebook-icon
+
+
