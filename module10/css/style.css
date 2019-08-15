@@ -187,22 +187,22 @@
 }
 
 .services-icon--clock {
-    background-image: url("css/images/image1.png"); 
+    background-image: url("../css/images/image1.png"); 
 }
 .services-icon--web-design {
-    background-image: url("css/images/image2.png");
+    background-image: url("../css/images/image2.png");
 }
 .services-icon--monitor {
-    background-image: url("css/images/image3.png");
+    background-image: url("../css/images/image3.png");
 }
 .services-icon--book {
-    background-image: url("./css/images/image4.png");
+    background-image: url("../css/images/image4.png");
 }
 .services-icon--house {
-    background-image: url("./css/images/image5.png");
+    background-image: url("../css/images/image5.png");
 }
 .services-icon--digital {
-    background-image: url("./css/images/image6.png");
+    background-image: url("../css/images/image6.png");
 }
 .member-card__image img {
     display: block;
