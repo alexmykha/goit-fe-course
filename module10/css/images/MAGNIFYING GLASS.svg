@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<defs>
+		<image width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IB2cksfwAAANVQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////fPoPwAAAAEd0Uk5TAAZcpsnAjDPb//vi7P6fCTX183MRLq/CBTF8cgPU7wikDkLDSGO7U1iLKpMoMrAfy6EC1Q8KvklSlPTGe8zFQF4pm7Watyw5gzMCAAAArUlEQVR4nH3M1xKCMBRF0WBBDoqK2At2BSsKVuzt/z9JRpI41vuQ2XdlEkJ+jRAIhsJi5MUiEuRoDEo88bSkmtLShGSyyAnM8pJa8EtEkWEAJVrlil6lWZPr7F5Dg1Yzyn9voU2rE+PYhUHLRI9hHwNaQ2VEa6xa/NEE5vRhNiyH4WwOu7RYrtYAXK75je7t2FreseNKhP3BOBLHfVV//uiJfNHzOxLncr194GPuroUP+8xmzWUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="banner">
+		<g id="menu">
+			<use id="MAGNIFYING GLASS" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

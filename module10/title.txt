@@ -11,9 +11,8 @@ navigation
 section-header
     section-header__title
     section-header__subtitle
-    section-header__text
 services
-services-icon
+    services-icon
     services-icon--clock
     services-icon--web-design
     services-icon--monitor
@@ -22,19 +21,4 @@ services-icon
     services-icon--digital
     services-icon__title
     services-icon__subtitle
-team
-member-cards
-member-card
-    member-card__image
-    member-card__image--Christopher_Campbell
-    member-card__image--Mattiew_Dix
-    
-    member-card__name
-    member-card__position
-    member-card__overlay
-    member-card__overlay--facebook
-    member-card__overlay--twitter
-    member-card__overlay--pinterest
-    member-card__overlay--instagram
-
 
