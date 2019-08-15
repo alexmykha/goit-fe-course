@@ -265,15 +265,15 @@
 }
 
 .member-card__overlay--twitter {
-    background:  #fce38a url("/css/images/twitter.png") no-repeat center;
+    background:  #fce38a url("../css/images/twitter.png") no-repeat center;
     border-right: #f38181 solid 1px;
 }
 .member-card__overlay--pinterest {
-    background:  #fce38a url("/css/images/pinterest.png") no-repeat center;
+    background:  #fce38a url("../css/images/pinterest.png") no-repeat center;
     border-right: #f38181 solid 1px;
 }
 .member-card__overlay--instagram {
-    background:  #fce38a url("/css/images/instagram.png") no-repeat center;
+    background:  #fce38a url("../css/images/instagram.png") no-repeat center;
 }
 .member-card__image {
     position: relative;
