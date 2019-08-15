@@ -26,9 +26,15 @@ team
 member-cards
 member-card
     member-card__image
+    member-card__image--Christopher_Campbell
+    member-card__image--Mattiew_Dix
+    
     member-card__name
     member-card__position
     member-card__overlay
-    member-card__overlay--facebook-icon
+    member-card__overlay--facebook
+    member-card__overlay--twitter
+    member-card__overlay--pinterest
+    member-card__overlay--instagram
 
 
