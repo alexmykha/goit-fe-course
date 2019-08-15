@@ -252,7 +252,8 @@
 .member-card-overlay a{
     width: 56px;
     height: 56px;
-    text-align: center;
+    /* text-align: center; */
+    
 }
 .member-card__overlay--facebook {
     /* background:  #fce38a url("/css/images/facebook.png")  no-repeat center; */
@@ -265,6 +266,8 @@
     width: 26px;
     height: 56px;
     fill: #f38181;
+    /* display: block;
+    margin: auto; */
 }
 
 .member-card__overlay--twitter {
