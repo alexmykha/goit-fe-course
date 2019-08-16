@@ -6,12 +6,15 @@
 .banner {
     text-align: center;
     color: #ffffff;
-    background-image: -Webkit-image-set(url("../css/images/banner.png") 1x, url("../css/images/banner@2x.png") 2x);
-    background-repeat: no-repeat;
-    background-position: top center;
+    background: url("../css/images/banner.png") no-repeat top center;
     position: relative;
     height: 1000px;
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .banner {
+      background: url("../css/images/banner@2x.png") no-repeat top center;
+    }
+  }
 
 .banner::before {
     content: '';
@@ -236,7 +239,7 @@
     font-style: italic;
 }
 
-.member-card-overlay {
+.member-card__overlay {
     visibility: hidden;
     /* padding-left: 20%; */
     align-items: center;
@@ -249,7 +252,7 @@
     top: 0;
     background: linear-gradient(0deg, rgba(240,226,144,0.8) 0%, rgba(233,138,137,0.8) 100%);
 }
-.member-card-overlay a{
+.member-card__overlay a{
     width: 56px;
     height: 56px;
     /* text-align: center; */
@@ -288,7 +291,7 @@
     position: relative;
     transition: 200ms linear;
 }
-.member-card__image:hover .member-card-overlay{
+.member-card__image:hover .member-card__overlay{
     visibility: visible;
 }
 .member-card__image:hover {
@@ -296,10 +299,10 @@
     transform: translate(-10px,-10px);
 }
 
-.member-card-overlay a:hover {
+.member-card__overlay a:hover {
     background-color: #f38181;
 }
-.member-card-overlay a:hover .svg {
+.member-card__overlay a:hover .svg {
 fill: white;
 }
 
